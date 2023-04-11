@@ -1,0 +1,67 @@
+﻿<Window x:Class="happy_viselica.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:happy_viselica"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center" ButtonBase.Click="Vibor_Click">
+            <Button x:Name="btA" Uid="а" Width="50" Height="50" Content="а" />
+            <Button x:Name="btB" Uid="б" Width="50" Height="50" Content="б" />
+            <Button x:Name="btV" Uid="в" Width="50" Height="50" Content="в" />
+            <Button x:Name="btG" Uid="г" Width="50" Height="50" Content="г"/>
+            <Button x:Name="btD" Uid="д" Width="50" Height="50" Content="д"/>
+            <Button x:Name="btE" Uid="е" Width="50" Height="50" Content="е"/>
+            <Button x:Name="btYO" Uid="ё" Width="50" Height="50" Content="ё"/>
+            <Button x:Name="btJ" Uid="ж" Width="50" Height="50" Content="ж"/>
+            <Button x:Name="btZ" Uid="з" Width="50" Height="50" Content="з"/>
+            <Button x:Name="btI" Uid="и" Width="50" Height="50" Content="и"/>
+            <Button x:Name="btIKR" Uid="й" Width="50" Height="50" Content="й"/>
+
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" ButtonBase.Click="Vibor_Click">
+            <Button x:Name="btK" Uid="к" Width="50" Height="50" Content="к"/>
+            <Button x:Name="btL" Uid="л" Width="50" Height="50" Content="л"/>
+            <Button x:Name="btM" Uid="м" Width="50" Height="50" Content="м"/>
+            <Button x:Name="btN" Uid="н" Width="50" Height="50" Content="н"/>
+            <Button x:Name="btO" Uid="о" Width="50" Height="50" Content="о"/>
+            <Button x:Name="btP" Uid="п" Width="50" Height="50" Content="п"/>
+            <Button x:Name="btR" Uid="р" Width="50" Height="50" Content="р"/>
+            <Button x:Name="btS" Uid="с" Width="50" Height="50" Content="с"/>
+            <Button x:Name="btT" Uid="т" Width="50" Height="50" Content="т"/>
+            <Button x:Name="btU" Uid="у" Width="50" Height="50" Content="у"/>
+            <Button x:Name="btF" Uid="ф" Width="50" Height="50" Content="ф"/>
+        </StackPanel>
+        <StackPanel  Grid.Row="2" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" ButtonBase.Click="Vibor_Click">
+            <Button x:Name="btH" Uid="х" Width="50" Height="50" Content="х"/>
+            <Button x:Name="btC" Uid="ц" Width="50" Height="50" Content="ц"/>
+            <Button x:Name="btCH" Uid="ч" Width="50" Height="50" Content="ч"/>
+            <Button x:Name="btSH" Uid="ш" Width="50" Height="50" Content="ш"/>
+            <Button x:Name="btSHI" Uid="щ" Width="50" Height="50" Content="щ"/>
+            <Button x:Name="btTVERD" Uid="ъ" Width="50" Height="50" Content="ъ"/>
+            <Button x:Name="btII" Uid="ы" Width="50" Height="50" Content="ы"/>
+            <Button x:Name="btMIGH" Uid="ь" Width="50" Height="50" Content="ь"/>
+            <Button x:Name="btYE" Uid="э" Width="50" Height="50" Content="э"/>
+            <Button x:Name="btYU" Uid="ю" Width="50" Height="50" Content="ю"/>
+            <Button x:Name="btYA" Uid="я" Width="50" Height="50" Content="я"/>
+        </StackPanel>
+        <Label Content="qswe" Name="lbproverka" Grid.Row="0"/>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <Label x:Uid="1" x:Name="lb1" Width="30" Height="30" Background="Green" Margin="0 0 20 0"/>
+            <Label x:Uid="2" x:Name="lb2" Width="30" Height="30" Background="Green" Margin="0 0 20 0"/>
+            <Label x:Uid="3" x:Name="lb3" Width="30" Height="30" Background="Green" Margin="0 0 20 0"/>
+            <Label x:Uid="4" x:Name="lb4" Width="30" Height="30" Background="Green" Margin="0 0 20 0"/>
+            <Label x:Uid="5" x:Name="lb5" Width="30" Height="30" Background="Green" Margin="0 0 20 0"/>
+            <Label x:Uid="6" x:Name="lb6" Width="30" Height="30" Background="Green" Margin="0 0 20 0"/>
+            <Label x:Uid="7" x:Name="lb7" Width="30" Height="30" Background="Green"/>
+        </StackPanel>
+        <Button Content="рестарт" HorizontalAlignment="Left" Margin="725,36,0,0" Grid.Row="2" VerticalAlignment="Top" Click="Button_Click" Height="39" Width="67"/>
+    </Grid>
+</Window>
